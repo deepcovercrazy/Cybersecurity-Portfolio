@@ -51,7 +51,7 @@ To practice and demonstrate foundational knowledge of network design and communi
   - PC0 (FastEthernet0) → Switch (FastEthernet0/1)
   - PC1 (FastEthernet0) → Switch (FastEthernet0/2)
 
-![Packet1](file:///C:/Users/moham/OneDrive/Desktop/Packet1.png)
+![Packet1](Screenshots/Packet1.png)
 ---
 
 ## 2️⃣ Step Two: Configure Static IP Addresses
@@ -81,9 +81,9 @@ Default Gateway: 192.168.1.1
 ➡️ Configuration done via:
 - PC → Desktop Tab → IP Configuration
 
-![Packet23](file:///C:/Users/moham/OneDrive/Desktop/Packet23.png)
+![Packet23](Screenshots/Packet23.png)
 
-![Packet22](file:///C:/Users/moham/OneDrive/Desktop/Packet22.png)
+![Packet22](Screenshots/Packet22.png)
 
 ---
 
@@ -103,7 +103,7 @@ ping 192.168.1.10
 ```
 ✅ Expected Result: All pings are **successful** — the network is functioning correctly.
 
-![Packet3](file:///C:/Users/moham/OneDrive/Desktop/Packet3.png)
+![Packet3](Screenshots/Packet3.png)
 
 
 
@@ -128,7 +128,7 @@ ping 192.168.1.10
 
 🧠 This step helped in visualizing how data flows across a network and how Layer 2 & Layer 3 protocols interact.
 
-![Packet2](file:///C:/Users/moham/OneDrive/Desktop/Packet2.png)
+![Packet2](Screenshots/Packet2.png)
 
 * * *
 

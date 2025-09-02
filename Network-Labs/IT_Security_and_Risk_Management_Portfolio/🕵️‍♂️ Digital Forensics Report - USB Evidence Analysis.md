@@ -64,7 +64,7 @@ echo "Not really a picture, but good enough!" > /mnt/fakeusb/picture.jpg
 | **Evidence No.** | 001                                  |
 | **Description**  | USB with deleted file and fake image |
 
-![Guy](file:///C:/Users/moham/OneDrive/Desktop/Guy.png)
+![Guy](Screenshots/Guy.png)
 
 ## 🕸️ 3. Analysis in Autopsy
 
@@ -82,7 +82,7 @@ bashCopyEditautopsy
     * File Type Identification ✅
     * Metadata Extraction ✅
     
-![Auto1](file:///C:/Users/moham/OneDrive/Desktop/Auto1.png)
+![Auto1](Screenshots/Auto1.png)
 
 # 🔎 Key Findings
 * 📄 secret.txt
@@ -92,7 +92,7 @@ bashCopyEditautopsy
 ```
 Top secret content here
 ```
-![Auto2](file:///C:/Users/moham/OneDrive/Desktop/Auto2.png)
+![Auto2](Screenshots/Auto2.png)
 ## 🔗 Chain of Custody
 Step	Responsible	Action	Timestamp
 Evidence Created	DeepCover	Created USB image (.raw)	2025-07-12 09:50 UTC

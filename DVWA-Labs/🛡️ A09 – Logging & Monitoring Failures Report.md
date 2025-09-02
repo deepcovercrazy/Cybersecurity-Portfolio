@@ -22,7 +22,7 @@ systemctl status ssh.service
 
 Status: active (running)
 
-![S S H](file:///C:/Users/moham/OneDrive/Desktop/SSH.png)
+![SSH](Screenshots/SSH.png)
 
 ## 2. Authentication Testing 🔐
 
@@ -49,7 +49,7 @@ Jul 09 18:01:20 kali sshd[12345]: Failed password for testuser from 127.0.0.1 po
 
 Jul 09 18:01:25 kali sshd[12345]: Failed password for testuser from 127.0.0.1 port 54324 ssh2
 
-![Pass Rep](file:///C:/Users/moham/OneDrive/Desktop/PassRep.png)
+![PassRep](Screenshots/PassRep.png)
     
 ## 3. Log Rotation Configuration 🔄
 * Verified log rotation configuration files:
@@ -60,7 +60,7 @@ cat /etc/logrotate.d/rsyslog
 
 * Confirmed log files will be rotated and archived regularly to prevent excessive disk usage.
 
-![Out Put](file:///C:/Users/moham/OneDrive/Desktop/OutPut.png)
+![Out Put](Screenshots/OutPut.png)
 
 ## 4. Alerting and Intrusion Prevention with Fail2Ban 🚨
 * Checked if Fail2Ban is installed:
@@ -81,7 +81,7 @@ sudo systemctl start fail2ban
 
     Confirmed IP banning mechanism is active.
     
-![Fail Ban](file:///C:/Users/moham/OneDrive/Desktop/FailBan.png)
+![Fail Ban](Screenshots/FailBan.png)
 
 ## 5. Summary & Recommendations ✅
 

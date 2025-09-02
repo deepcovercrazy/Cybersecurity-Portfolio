@@ -40,7 +40,7 @@ These are MD5 hashes, which are:
 
 DVWA configuration file showing database settings
 
-![DVWA ID](file:///C:/Users/moham/OneDrive/Desktop/DVWA%20ID.png)
+![DVWA ID](Screenshots/DVWA%20ID.png)
 
 ## 2️⃣ Cleartext Login Transmission
 While submitting the login form using Burp Suite interception, we captured the following HTTP request:
@@ -58,7 +58,7 @@ username=admin&password=password&Login=Login
 
 ❌ Vulnerable to Man-in-the-Middle (MitM) attacks
 
-![Burp](file:///C:/Users/moham/OneDrive/Desktop/Burp.png)
+![Burp](Screenshots/Burp.png)
 
 ✅ Mitigation: Always enforce HTTPS and use TLS to encrypt sensitive data during transmission.
 
@@ -76,9 +76,9 @@ Set-Cookie: PHPSESSID=072856bbb613c602293cd4f47c31cba0; path=/
 | `SameSite` | ❌       | No protection against CSRF       |
 | `Entropy`  | Medium  | Potentially guessable session ID |
 
-![Admin](file:///C:/Users/moham/OneDrive/Desktop/Admin.png)
+![Admin](Screenshots/Admin.png)
 
-![systeminfo](file:///C:/Users/moham/OneDrive/Desktop/systeminfo.png)
+![systeminfo](Screenshots/systeminfo.png)
 ## 🧠 Summary of Findings
 
 | Vulnerability                    | Status |

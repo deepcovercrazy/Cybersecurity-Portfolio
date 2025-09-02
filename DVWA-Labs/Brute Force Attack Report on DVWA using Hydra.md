@@ -30,7 +30,7 @@ Hydra started the attack and tried 6 passwords from the quick.txt file.
  [80][http-post-form] host: 127.0.0.1   login: admin   password: password
  1 of 1 target successfully completed, 6 valid passwords found
 ```
-![Attack](file:///C:/Users/moham/OneDrive/Desktop/Attack.png)
+![Attack](Screenshots/Attack.png)
 
 ## 📌 Summary
 Hydra successfully identified 6 valid passwords for the user admin.

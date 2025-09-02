@@ -37,7 +37,7 @@ echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 
 🎯 This allows Kali to forward packets between the victim and the gateway.
 
-![Ip2](file:///C:/Users/moham/OneDrive/Desktop/Ip2.png)
+![Ip2](Screenshots/Ip2.png)
 
 * * *
 
@@ -60,8 +60,8 @@ sudo arpspoof -i eth0 -t 192.168.1.1 192.168.1.184
 🌀 Spoofs the gateway to believe that Kali is the victim.
 
 
-![Ip4](file:///C:/Users/moham/OneDrive/Desktop/Ip4.png)
-![Ip5](file:///C:/Users/moham/OneDrive/Desktop/Ip5.png)
+![Ip4](Screenshots/Ip4.png)
+![Ip5](Screenshots/Ip5.png)
 * * *
 
 ## 👁️ Step 4: Capture Traffic with Wireshark

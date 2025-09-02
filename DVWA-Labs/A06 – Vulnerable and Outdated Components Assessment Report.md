@@ -17,9 +17,9 @@ Executed the following command to list all active services on the system:
 ```bash
 sudo systemctl list-units --type=service --state=running
 ```
-![Rep1](file:///C:/Users/moham/OneDrive/Desktop/Rep1.png)
-![Rep2](file:///C:/Users/moham/OneDrive/Desktop/Rep2.png)
-![Rep3](file:///C:/Users/moham/OneDrive/Desktop/Rep3.png)
+![Rep1](Screenshots/Rep1.png)
+![Rep2](Screenshots/Rep2.png)
+![Rep3](Screenshots/Rep3.png)
 ### 2. 🔍 Check Versions of Key Services
 Identified and retrieved versions of critical services:
 
@@ -40,14 +40,14 @@ ModemManager --version
 
 systemd --version
 
-![Rep4](file:///C:/Users/moham/OneDrive/Desktop/Rep4.png)
+![Rep4](Screenshots/Rep4.png)
 ### 3. 📚 Review Installed System Packages
 Used package management to list systemd and related libraries versions:
 
 dpkg -l | grep systemd
 
 (For Debian/Ubuntu-based systems)
-![Rep5](file:///C:/Users/moham/OneDrive/Desktop/Rep5.png)
+![Rep5](Screenshots/Rep5.png)
 ### 4. 🕵️‍♂️ Vulnerability Analysis
 Researched publicly known CVEs for the identified versions via CVE databases (e.g., MITRE CVE, NVD).
 
@@ -72,11 +72,11 @@ sudo apt install lynis
 
 sudo lynis audit system
 
-![Rep6](file:///C:/Users/moham/OneDrive/Desktop/Rep6.png)
+![Rep6](Screenshots/Rep6.png)
 
-![Rep7](file:///C:/Users/moham/OneDrive/Desktop/Rep7.png)
+![Rep7](Screenshots/Rep7.png)
 
-![Rep8](file:///C:/Users/moham/OneDrive/Desktop/Rep8.png)
+![Rep8](Screenshots/Rep8.png)
 ### 📌 Summary
 This assessment confirms that the system’s critical components are running on reasonably recent versions with no immediate critical vulnerabilities detected. Continuous updates and regular security scans are recommended to maintain a secure environment.
 

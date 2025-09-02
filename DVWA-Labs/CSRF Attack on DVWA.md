@@ -45,7 +45,7 @@ DVWA Security Level set to Low
   </body>
 </html>
 
-![csrf attack.html](file:///C:/Users/moham/OneDrive/Desktop/csrf-attack.html.png)
+![csrf attack.html](Screenshots/csrf-attack.html.png)
 
 3. Hosting the File:
 
@@ -59,7 +59,7 @@ The file was accessed via http://localhost/csrf-attack.html.
 
 * The form automatically submits, !silently changing the user’s password to hacked123.
 
-![Pass Changed](file:///C:/Users/moham/OneDrive/Desktop/PassChanged.png)
+![Pass Changed](Screenshots/PassChanged.png)
 
 ## ✅ Proof of Concept
 Directly visiting the URL below (while logged in) successfully changed the password:

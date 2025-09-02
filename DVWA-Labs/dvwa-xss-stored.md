@@ -44,7 +44,7 @@ Click on **Sign Guestbook**
 
 Immediately after submission, the injected script was **stored in the guestbook** and **executed when rendered** to the page.
 
-![stored xss alert.png](./stored-xss-alert.png.png)
+![stored xss alert.png](Screenshots/stored-xss-alert.png.png)
 
 This confirms that the application does **not sanitize stored inputs before rendering**, making it vulnerable to persistent XSS attacks.
 
